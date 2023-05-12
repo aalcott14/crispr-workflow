@@ -18,7 +18,7 @@
       "description": "First group",
       "properties": [{
         "id": "input1",
-        "title": "Text Inp",
+        "title": "Text Input",
         "type": "string",
         "hidden": false,
         "description": "Type something here"
