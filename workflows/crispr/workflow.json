@@ -1,6 +1,6 @@
 {
   "schema": "v2",
-  "id": "crispr-mismatch",
+  "id": "crispr",
   "title": "aalcott14/crispr-workflow",
   "workflowVersion": "v0.1.0",
   "displayName": "Adam's Crispr Workflow",
