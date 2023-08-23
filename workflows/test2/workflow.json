@@ -1,7 +1,6 @@
 {
   "schema": "v2",
   "id": "test2",
-  "workflow_engine": "wdl@1.1",
   "title": "aalcott14/crispr-workflow",
   "workflowVersion": "v0.1.0",
   "displayName": "Adam's Crispr Workflow",
