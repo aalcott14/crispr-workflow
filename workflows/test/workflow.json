@@ -1,0 +1,29 @@
+{
+  "schema": "v2",
+  "id": "test",
+  "title": "aalcott14/crispr-workflow",
+  "workflowVersion": "v0.1.0",
+  "displayName": "Adam's Crispr Workflow",
+  "description": "A test workflow with no dependencies for developers to experiment with",
+  "type": "object",
+  "categories": [
+    "Test"
+  ],
+  "properties": [
+    {
+      "id": "group1",
+      "title": "Group 1",
+      "type": "object",
+      "hidden": false,
+      "description": "First group",
+      "properties": [{
+        "id": "input1",
+        "title": "Text Input 1",
+        "type": "string",
+        "hidden": false,
+        "description": "Type something here"
+      }],
+      "required": ["input1"]
+    }
+  ]
+}
