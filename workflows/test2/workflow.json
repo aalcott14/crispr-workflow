@@ -3,6 +3,7 @@
   "id": "test2",
   "title": "aalcott14/crispr-workflow",
   "workflowVersion": "v0.1.0",
+  "workflowEngine": "wdl",
   "displayName": "Adam's Crispr Workflow",
   "description": "A test workflow with no dependencies for developers to experiment with",
   "type": "object",
