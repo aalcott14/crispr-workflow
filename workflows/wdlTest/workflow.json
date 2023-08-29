@@ -23,9 +23,9 @@
 		"inputs": [
 			{
 				"id": "inputFileGroup",
-			  "title": "Inputs",
+			  	"title": "Inputs",
 				"fields": ["inputFile"],
-			  "hidden": "false"
+			  	"hidden": false
 			}
 		]
 	}
