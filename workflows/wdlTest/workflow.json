@@ -5,6 +5,7 @@
 	"description": "Testing",
 	"title": "aalcott14/crispr-workflow",
 	"workflowVersion": "v1.0.0",
+	"workflowLanguage": "wdl",
 	"categories": ["Test"],
 	"inputs": {
 		"inputFile": {
