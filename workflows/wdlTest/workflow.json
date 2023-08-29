@@ -9,15 +9,15 @@
 	"categories": ["Test"],
 	"inputs": {
 		"inputFile": {
-      "title": "Input File",
-      "type": "string",
-      "format": "file",
-      "filetype": ".json",
-      "hidden": false,
-      "required": true,
-      "description": "JSON file containing input values",
-      "help_text": "Visit https://github.com/PacificBiosciences/wdl-humanwgs/blob/main/backends/gcp/inputs.gcp.json and update cohort inputs."
-    }
+			"title": "Input File",
+			"type": "string",
+			"format": "file",
+			"filetype": ".json",
+			"hidden": false,
+			"required": true,
+			"description": "JSON file containing input values",
+			"help_text": "Visit https://github.com/PacificBiosciences/wdl-humanwgs/blob/main/backends/gcp/inputs.gcp.json and update cohort inputs."
+		}
 	},
 	"ui": {
 		"inputs": [
