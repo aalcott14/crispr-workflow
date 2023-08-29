@@ -1,30 +1,31 @@
 {
-  "schema": "v2",
-  "id": "test2",
-  "title": "aalcott14/crispr-workflow",
-  "workflowVersion": "v0.1.0",
-  "workflowLanguage": "wdl",
-  "displayName": "Adam's Crispr Workflow",
-  "description": "A test workflow with no dependencies for developers to experiment with",
-  "type": "object",
-  "categories": [
-    "Test"
-  ],
-  "properties": [
-    {
-      "id": "group1",
-      "title": "Group 1",
-      "type": "object",
+	"id": "wdlTest",
+	"schema": "v3",
+	"displayName": "WDL Test",
+	"description": "Testing",
+	"title": "aalcott14/crispr-workflow",
+	"workflowVersion": "v1.0.0",
+	"categories": ["Test"],
+	"inputs": {
+		"inputFile": {
+      "title": "Input File",
+      "type": "string",
+      "format": "file",
+      "filetype": ".json",
       "hidden": false,
-      "description": "First group",
-      "properties": [{
-        "id": "input1",
-        "title": "Text Input 1",
-        "type": "string",
-        "hidden": false,
-        "description": "Type something here"
-      }],
-      "required": ["input1"]
+      "required": true,
+      "description": "JSON file containing input values",
+      "help_text": "Visit https://github.com/PacificBiosciences/wdl-humanwgs/blob/main/backends/gcp/inputs.gcp.json and update cohort inputs."
     }
-  ]
+	},
+	"ui": {
+		"inputs": [
+			{
+				"id": "inputFileGroup",
+			  "title": "Inputs",
+				"fields": ["inputFile"],
+			  "hidden": "false"
+			}
+		]
+	}
 }
